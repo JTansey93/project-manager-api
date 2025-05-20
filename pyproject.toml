@@ -1,0 +1,10 @@
+[project]
+name = "project-manager-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "djangorestframework>=3.16.0",
+    "dotenv>=0.9.9",
+]
