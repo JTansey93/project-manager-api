@@ -7,4 +7,5 @@ requires-python = ">=3.12"
 dependencies = [
     "djangorestframework>=3.16.0",
     "dotenv>=0.9.9",
+    "drf-nested-routers>=0.94.2",
 ]

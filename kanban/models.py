@@ -18,7 +18,7 @@ class Ticket(models.Model):
             "FI": "Done",
             "OH": "On Hold"
             }
-    project = models.ForeignKey(Project, on_delete=models.CASCADE)
+    project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='ticket')
     name = models.CharField(max_length=32)
     description = models.CharField()
     status = models.CharField(

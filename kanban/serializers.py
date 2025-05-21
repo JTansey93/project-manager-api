@@ -5,7 +5,7 @@ from .models import Project, Ticket
 class ProjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Project
-        felds = ['name']
+        fields = ['name']
 
 class TicketSerializer(serializers.ModelSerializer):
     class Meta:
